@@ -11,7 +11,7 @@ import android.widget.TextView;
 
 public class Database extends BaseAdapter {
     Context c;
-    int[] gambar = {R.drawable.sukaurip, R.drawable.sendang, R.drawable.bukit, R.drawable.pulau, R.drawable.sidomulyo};
+    int[] gambar = {R.drawable.poster, R.drawable.poster,  R.drawable.poster,  R.drawable.poster,  R.drawable.poster};
     String[] judulkkn = {"Sukaurip", "Sendang", "Bukit Batu", "Pulau Kelapa", "Sidomulyo Makaryo"};
 
     public Database (Context ctx){

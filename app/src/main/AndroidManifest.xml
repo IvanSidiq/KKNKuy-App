@@ -9,21 +9,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Login">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".Login"/>
         <activity android:name=".PengumumanRinci"/>
         <activity android:name=".OpRecList"/>
         <activity android:name=".PengumumanTambah"/>
         <activity android:name=".Register"/>
-        <activity android:name=".MainActivity"/>
+        <activity android:name=".MainActivity"><intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter></activity>
         <activity android:name=".Home"/>
         <activity android:name=".Pengumuman"/>
         <activity android:name=".OpRec"/>
+        <activity android:name=".TambahOprec"/>
+        <activity android:name=".Chat"/>
+        <activity android:name=".AboutUs"/>
+        <activity android:name=".BelumTersedia"/>
+        <activity android:name=".Help"/>
     </application>
 
 </manifest>
