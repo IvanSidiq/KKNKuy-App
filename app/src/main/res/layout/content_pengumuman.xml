@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.kknkuy.kknkuy.Pengumuman"
+    tools:showIn="@layout/pengumuman">
+
+    <TextView
+        android:id="@+id/pengumuman_terbaru"
+        android:layout_width="340dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:ems="10"
+        android:background="@drawable/border"
+        android:text="@string/lorem_itsum" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/pengumuman_terbaru"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/pengumuman_terbaru"
+        android:layout_marginTop="11dp"
+        android:text="Pengumuman Terbaru"
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@color/blue"
+        android:text="Judul Pengumuman"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption" />
+
+    <Button
+        android:id="@+id/pengumuman_tambah"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pengumuman_terbaru"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:text="Tambah Pengumuman" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/pengumuman_tambah"
+        android:layout_alignStart="@+id/pengumuman_tambah"
+        android:layout_below="@+id/pengumuman_tambah"
+        android:text="Pengumuman lainnya"
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/pengumuman_tambah"
+        android:layout_alignStart="@+id/pengumuman_tambah"
+        android:layout_centerVertical="true"
+        android:text="Judul Pengumuman 1"
+        android:background="@color/blue"
+        android:onClick="func1"
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView14"
+        android:layout_alignStart="@+id/textView14"
+        android:layout_below="@+id/textView14"
+        android:layout_marginTop="12dp"
+        android:text="Judul Pengumuman 2"
+        android:background="@color/blue"
+        android:onClick="func1"
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView15"
+        android:layout_alignStart="@+id/textView15"
+        android:layout_below="@+id/textView15"
+        android:layout_marginTop="14dp"
+        android:text="Judul Pengumuman 3"
+        android:background="@color/blue"
+        android:onClick="func1"
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView16"
+        android:layout_alignStart="@+id/textView16"
+        android:layout_below="@+id/textView16"
+        android:layout_marginTop="15dp"
+        android:text="Judul Pengumuman 4"
+        android:background="@color/blue"
+        android:onClick="func1"
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+
+</RelativeLayout>
