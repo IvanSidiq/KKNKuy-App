@@ -76,7 +76,7 @@ public class MainActivity extends TabActivity implements NavigationView.OnNaviga
         if (id == R.id.nav_sign_in) {
             startActivity(new Intent(MainActivity.this,Login.class));
         } else if (id == R.id.nav_setting) {
-            startActivity(new Intent(MainActivity.this,BelumTersedia.class));
+            startActivity(new Intent(MainActivity.this,Setting.class));
         } else if (id == R.id.nav_help) {
             startActivity(new Intent(MainActivity.this,Help.class));
         } else if (id == R.id.nav_about_us) {
