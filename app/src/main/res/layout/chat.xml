@@ -19,12 +19,14 @@
             />
 
         <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/chatBox"
             android:layout_width="match_parent"
             android:layout_height="85dp"
             android:layout_marginBottom="2dp"
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
             ><ImageView
+            android:id="@+id/teamaccount1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:adjustViewBounds="true"
@@ -64,12 +66,14 @@
         </RelativeLayout>
 
         <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/chatBox2"
             android:layout_width="match_parent"
             android:layout_height="85dp"
             android:layout_marginBottom="2dp"
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp">
             <ImageView
+                android:id="@+id/teamaccount2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="true"
@@ -106,6 +110,7 @@
         </RelativeLayout>
 
         <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/chatBox3"
             android:layout_width="match_parent"
             android:layout_height="85dp"
             android:layout_marginBottom="2dp"
@@ -113,6 +118,7 @@
             android:layout_marginRight="8dp"
             >
             <ImageView
+                android:id="@+id/teamaccount3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="true"
@@ -152,13 +158,16 @@
         </RelativeLayout>
 
         <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/chatBox4"
             android:layout_width="match_parent"
             android:layout_height="85dp"
             android:layout_marginBottom="2dp"
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
             >
+
             <ImageView
+                android:id="@+id/teamaccount4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="true"
@@ -168,8 +177,7 @@
                 android:maxHeight="70dp"
                 android:scaleType="fitCenter"
                 android:layout_marginLeft="10dp"
-                android:src="@drawable/profile"
-                />
+                android:src="@drawable/profile"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
