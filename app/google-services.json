@@ -1,0 +1,51 @@
+{
+  "project_info": {
+    "project_number": "965095943386",
+    "firebase_url": "https://kknkuy-app.firebaseio.com",
+    "project_id": "kknkuy-app",
+    "storage_bucket": "kknkuy-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:965095943386:android:cf9d01c129464b81",
+        "android_client_info": {
+          "package_name": "com.example.kknkuy.kknkuy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "965095943386-1u5iqan760k36l0j2vl89a7aif5loon5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kknkuy.kknkuy",
+            "certificate_hash": "a2e89ad8c8f1391eedcd39b24d0e2ead08d6974d"
+          }
+        },
+        {
+          "client_id": "965095943386-jv2l2ku9mgq6p5r3bbv7fbjp3rp1ptu1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "965095943386-jv2l2ku9mgq6p5r3bbv7fbjp3rp1ptu1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
