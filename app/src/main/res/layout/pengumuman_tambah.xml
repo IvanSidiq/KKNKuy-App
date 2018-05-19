@@ -43,6 +43,7 @@
             />
 
         <EditText
+            android:id="@+id/judulPengumuman"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="14dp"
@@ -64,6 +65,7 @@
             />
 
         <EditText
+            android:id="@+id/linkPengumuman"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="14dp"
@@ -85,6 +87,7 @@
             />
 
         <EditText
+            android:id="@+id/deskripsiPengumuman"
             android:layout_width="match_parent"
             android:layout_height="160dp"
             android:layout_marginLeft="14dp"
@@ -94,14 +97,14 @@
             android:inputType="textMultiLine" />
 
         <Button
-            android:id="@+id/tambah_oprec"
+            android:id="@+id/submit_pengumuman"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="12dp"
             android:layout_marginRight="12dp"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
-            android:text="Tambah Iklan Oprec" />
+            android:text="Tambah Pengumuman" />
 
     </LinearLayout>
 </RelativeLayout>
